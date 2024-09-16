@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="box">
+  <h1>Login</h1>
+  <!-- TODO: Use Message Flashing to display feedback to the user with a <p> -->
+  <form action="" method="post">
+    <input type="text" name="tg_userid" placeholder="Telegram Userid" required="required" />
+    <button type="submit" class="btn btn-primary btn-block btn-large" value="Send the OTP">
+      Send the OTP
+    </button>
+  </form>
+</div>
+
+{% endblock %}
